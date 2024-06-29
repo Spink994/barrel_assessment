@@ -1,0 +1,30 @@
+* {
+	font-size: 16px;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.spin {
+	display: inline-block;
+	animation: spin 2s linear infinite;
+}
+
+.hover_table:hover {
+	background-color: #e7f3f9;
+}
+
+.hover_button:hover {
+	background-color: #e7f3f9 !important;
+}

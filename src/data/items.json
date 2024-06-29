@@ -1,0 +1,72 @@
+[
+	{
+		"quantity": 2,
+		"price": 10.99,
+		"item_id": "item1",
+		"item_name": "Sneakers",
+		"item_image_url": "https://cdn.thewirecutter.com/wp-content/media/2024/05/running-shoes-2048px-9718.jpg"
+	},
+	{
+		"quantity": 1,
+		"price": 15.49,
+		"item_id": "item2",
+		"item_name": "Running shoes",
+		"item_image_url": "https://m.media-amazon.com/images/I/41MHwZjV6CL._SS400_.jpg"
+	},
+	{
+		"quantity": 3,
+		"price": 5.99,
+		"item_id": "item3",
+		"item_name": "Women running shoes",
+		"item_image_url": "https://www.northernrunner.com/images/ghost-14-womens-running-shoes-black-pearl-peach-p7431-29212_zoom.jpg"
+	},
+	{
+		"price": 8.25,
+		"item_id": "item4",
+		"quantity": 2,
+		"item_name": "Nike Dunk",
+		"item_image_url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/custom-nike-dunk-high-by-you-shoes.png"
+	},
+	{
+		"price": 12.75,
+		"item_id": "item5",
+		"quantity": 1,
+		"item_name": "Casual Leather shoes",
+		"item_image_url": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/68/8796732/1.jpg?4685"
+	},
+	{
+		"price": 9.99,
+		"item_id": "item6",
+		"quantity": 4,
+		"item_name": "Lace free sneakers",
+		"item_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRIr9o9jeLP6j-FYW7mmLpK0lzPPKI3SavsyJ_iy2Qcp6ogm694I6u3SehtQRzID5rxgU&usqp=CAU"
+	},
+	{
+		"price": 6.49,
+		"item_id": "item7",
+		"quantity": 2,
+		"item_name": "Breathable shoes",
+		"item_image_url": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/6051412/1.jpg?8406"
+	},
+	{
+		"price": 11.5,
+		"item_id": "item8",
+		"quantity": 1,
+		"item_name": "Sport shoes",
+		"item_image_url": "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg"
+	},
+	{
+		"price": 7.75,
+		"item_id": "item9",
+		"quantity": 3,
+		"item_name": "Light weight shoes",
+		"item_image_url": "https://hips.hearstapps.com/hmg-prod/images/hoka-zinal-13085-1643565794.jpg"
+	},
+	{
+		"price": 14.99,
+		"item_id": "item10",
+		"quantity": 2,
+		"item_name": "Men athletic sport shoes",
+		"item_image_url": "https://m.media-amazon.com/images/I/61FkfLVoslL._AC_SL1002_.jpg"
+	}
+]
