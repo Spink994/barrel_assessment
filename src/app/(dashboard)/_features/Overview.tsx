@@ -61,7 +61,10 @@ const OVERVIEW_DATA = (orders: Order[]) => [
 ];
 
 export default function Overview({ orders }: Props) {
-	const media_match = useMediaQuery('(min-width: 1020px)');
+	const media_match =
+		typeof window === 'undefined'
+			? true
+			: useMediaQuery('(min-width: 1020px)');
 	/**
     |--------------------------------------------------
     | Rendered View

@@ -18,7 +18,10 @@ import useMediaQuery from '@/hooks/useMediaQuery';
 import NavigationItem from './_components/NavigationItem';
 
 export default function Sidebar() {
-	const media_match = useMediaQuery('(min-width: 1020px)');
+	const media_match =
+		typeof window === 'undefined'
+			? true
+			: useMediaQuery('(min-width: 1020px)');
 	/**
 	|--------------------------------------------------
 	| Component states

@@ -25,7 +25,10 @@ interface Props {
 
 export default function OrdersTable({ orders }: Props) {
 	const router = useRouter();
-	const media_match = useMediaQuery('(min-width: 1020px)');
+	const media_match =
+		typeof window === 'undefined'
+			? true
+			: useMediaQuery('(min-width: 1020px)');
 	/**
 	|--------------------------------------------------
 	| Component states
